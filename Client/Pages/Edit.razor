@@ -1,0 +1,57 @@
+﻿@inject NavigationManager Navigation
+@page "/edit"
+@layout _MemberLayout
+
+<div class="informatinWrap">
+<button class="member" type="button"><span class="glyphicon glyphicon-member"></span></button>
+<h4>
+    محمدرضا مبینی 
+</h4>
+
+<form>
+<div class="input-group">
+  <span class="input-group-text" id="name">نام </span>
+  <input type="text" class="form-control" id="name" aria-describedby="name">
+</div>
+<div class="input-group">
+  <span class="input-group-text" id="family">نام خانوادگی </span>
+  <input type="text" class="form-control" id="family" aria-describedby="name">
+</div>
+<div class="input-group">
+  <span class="input-group-text" id="birth">تاریخ تولد </span>
+  <input type="date" class="form-control" id="birth" aria-describedby="name">
+</div>
+<div class="input-group">
+  <span class="input-group-text" id="codmeli">کد ملی </span>
+  <input type="text" class="form-control" id="codmeli" aria-describedby="name">
+</div>
+<div class="input-group">
+  <span class="input-group-text" id="mobile">شماره موبایل </span>
+  <input type="tel" class="form-control" id="mobile" aria-describedby="name">
+</div>
+<div class="input-group">
+  <span class="input-group-text" id="Grade">مقطع تحصیلی</span>
+  <input type="text" class="form-control" id="Grade" aria-describedby="name">
+</div>
+<div class="input-group">
+  <span class="input-group-text" id="address">آدرس</span>
+  <input type="text" class="form-control" id="address" aria-describedby="name">
+</div>
+<div class="input-group">
+  <span class="input-group-text" id="cardbank">کارت بانکی</span>
+  <input type="text" class="form-control" id="cardbank" aria-describedby="name">
+</div>
+<div class="input-group">
+  <span class="input-group-text" id="school">نام مدرسه</span>
+  <input type="text" class="form-control" id="school" aria-describedby="name">
+</div><div class="input-group">
+  <span class="input-group-text" id="email">ایمیل</span>
+  <input type="email" class="form-control" id="email" aria-describedby="name">
+</div>
+
+  <div class="buttonWrap">
+ <button type="button" class="btn cancel"  @onclick='() => Navigation.NavigateTo("/member")'>انصراف</button>
+  <button type="submit" class="btn submit ">ثبت اطلاعات</button>
+ </div>
+</form> 
+</div>

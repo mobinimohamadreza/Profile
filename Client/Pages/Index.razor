@@ -1,0 +1,23 @@
+﻿@inject HttpClient Http
+@page "/"
+@using Profile.Client.Shared.Component
+@inject NavigationManager Navigation
+@layout _MemberLayout
+
+<PageTitle>Profile</PageTitle>
+<button class="member" type="button"><span class="glyphicon glyphicon-member"></span></button>
+<h4>
+    محمدرضا مبینی <button class="pen" type="button"  @onclick='() => Navigation.NavigateTo("/edit")'><span class="glyphicon glyphicon-pen"></span></button>
+</h4>
+<div class="walletWrap">
+    <div class="header">
+        <span class="glyphicon glyphicon-wallet"></span>
+        <span class="wallet">1,256,000</span>
+       <button type="button"> <span class="glyphicon glyphicon-sum"></span> </button>
+    </div>
+<button class="video "><span>ویدیو</span></button>
+<button class="competitions"><span>مسابقات</span></button>
+<button class="gameMember"><span>بازی</span></button>
+</div>
+
+

@@ -1,0 +1,12 @@
+D:\project\Profile\Shared\bin\Debug\net6.0\Profile.Shared.deps.json
+D:\project\Profile\Shared\bin\Debug\net6.0\Profile.Shared.dll
+D:\project\Profile\Shared\bin\Debug\net6.0\Profile.Shared.pdb
+D:\project\Profile\Shared\obj\Debug\net6.0\Profile.Shared.csproj.AssemblyReference.cache
+D:\project\Profile\Shared\obj\Debug\net6.0\Profile.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\Profile\Shared\obj\Debug\net6.0\Profile.Shared.AssemblyInfoInputs.cache
+D:\project\Profile\Shared\obj\Debug\net6.0\Profile.Shared.AssemblyInfo.cs
+D:\project\Profile\Shared\obj\Debug\net6.0\Profile.Shared.csproj.CoreCompileInputs.cache
+D:\project\Profile\Shared\obj\Debug\net6.0\Profile.Shared.dll
+D:\project\Profile\Shared\obj\Debug\net6.0\refint\Profile.Shared.dll
+D:\project\Profile\Shared\obj\Debug\net6.0\Profile.Shared.pdb
+D:\project\Profile\Shared\obj\Debug\net6.0\ref\Profile.Shared.dll

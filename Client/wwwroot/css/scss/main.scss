@@ -1,0 +1,438 @@
+﻿@font-face {
+    font-family: "SDF";
+    src: url(/font/IRANSans.woff) format("woff");
+}
+
+@font-face {
+    font-family: "fontIcon";
+    src: url(/font/fontIcon.ttf) format("woff");
+    src: url(/font/fontIcon.woff) format("woff");
+}
+
+body {
+    font-family: "SDF" !important;
+    overflow-x: hidden;
+    color: #000;
+    box-sizing: border-box;
+    direction: rtl;
+    line-height: 1.5;
+    font-size: 14px;
+    margin: 0;
+    background: #333343;
+}
+* {
+    box-sizing: border-box;
+}
+.glyphicon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glyphicon:before {
+    font-size: 20px;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: 0 auto;
+    color: #555555;
+    font-family: "fontIcon";
+    content:''
+}
+button {
+    background: none;
+    border: none;
+    box-shadow: none !important;
+
+    &:hover {
+        background: none ;
+    }
+}
+
+.glyphicon-sum:before {
+    content: '\F100';
+}
+.glyphicon-arrow-left:before {
+    content: '\F102';
+}
+.glyphicon-hamburger:before {
+    content: '\F103';
+}
+
+.glyphicon-search:before {
+    content: '\F104';
+}
+
+.glyphicon-back:before {
+    content: '\F105';
+}
+.glyphicon-member:before {
+    content: '\F106';
+}
+
+.glyphicon-love:before {
+    content: '\F107';
+}
+.glyphicon-save:before {
+    content: '\F108';
+}
+.glyphicon-share:before {
+    content: '\F109';
+}
+.glyphicon-close:before {
+    content: '\F110';
+}
+.glyphicon-clock:before {
+    content: '\F111';
+}
+.glyphicon-eye:before {
+    content: '\F113';
+}
+
+.glyphicon-send:before {
+    content: '\F114';
+}
+.glyphicon-fillter:before {
+    content: '\F115';
+}
+.glyphicon-pen:before {
+    content: '\F116';
+}
+.glyphicon-wallet:before {
+    content: '\F117';
+}
+.glyphicon-transactions:before {
+    content: '\F118';
+}
+.glyphicon-increase:before {
+    content: '\F119';
+}
+.glyphicon-decrease:before {
+    content: '\F120';
+}
+
+
+.mud-main-content {
+    padding: 16px;
+}
+
+a {
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+i {
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+.img-responsive {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.video-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.generalMainWrap {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0 5px;
+}
+
+
+.memberWrap {
+    padding: 0;
+    background: linear-gradient(72.97deg, #333343 23.15%, #3B4D69 88.11%);
+
+    .memberHeader {
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        padding: 20px;
+        padding-bottom: 50px;
+
+        button {
+            color: #fff;
+
+            .glyphicon:before {
+                color: #fff;
+            }
+        }
+
+        span {
+            font-weight: 500;
+            font-size: 14px;
+            color: #F5F5F5;
+        }
+    }
+
+    .mud-main-content {
+        background: #F5F5F5;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        border-radius: 25px 25px 0px 0px;
+        padding: 0 32px;
+
+        .member {
+            width: 80px;
+            height: 80px;
+            background: #333343;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            margin: 0 auto;
+            display: table;
+            margin-top: -40px;
+
+            .glyphicon:before {
+                color: #fff;
+                font-size: 32px;
+            }
+        }
+
+        h4 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 27px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            margin: 20px auto;
+            position: relative;
+
+            button {
+                margin-right: 10px;
+                position: absolute;
+                right: 100%;
+                top: 3px;
+            }
+        }
+
+        .walletWrap {
+            display: flex;
+            flex-direction: column;
+
+            .header {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.16);
+                border-radius: 16px;
+                padding: 20px 20px;
+                position: relative;
+                z-index: 2;
+                background-image: url('../../Img/walletWrap.png');
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                background-color: #374259;
+            }
+
+            .glyphicon-wallet {
+                color: #fff;
+
+                &:before {
+                    color: #fff;
+                }
+            }
+
+            .wallet {
+                color: #fff;
+                position: relative;
+                font-size: 23px;
+
+                &::after {
+                    content: "ریال";
+                    position: absolute;
+                    font-size: 12px;
+                    padding: 0px 8px 0 0;
+                    top: 8px;
+                    right: 100%;
+                    transition: all 0.3s ease-in-out;
+                }
+            }
+
+            .glyphicon-sum {
+                background: #FFFFFF;
+                border-radius: 50%;
+                width: 32px;
+                height: 32px;
+                display: flex;
+                transition: all 0.2s ease-in-out;
+
+                &:before {
+                    font-size: 14px;
+                }
+
+                &:hover {
+                    background: #FFD541;
+                }
+            }
+        }
+    }
+
+    .video {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.16);
+        border-radius: 16px;
+        padding: 20px 20px;
+        position: relative;
+        z-index: 2;
+        background-image: url('../../Img/videomember.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-top: 20px;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 34px;
+        background-color: #fedd76;
+
+        span {
+            padding-right: 0;
+            position: relative;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+
+    .competitions {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.16);
+        border-radius: 16px;
+        padding: 20px 20px;
+        position: relative;
+        z-index: 2;
+        background-image: url('../../Img/competitions.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-top: 20px;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 34px;
+        font-size: 16px;
+        background-color: #5ae3ca;
+
+        span {
+            padding-right: 0;
+            position: relative;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+
+    .gameMember {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.16);
+        border-radius: 16px;
+        padding: 20px 20px;
+        position: relative;
+        z-index: 2;
+        background-image: url('../../Img/gameMember.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-top: 20px;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 34px;
+        background-color: #ff7676;
+
+        span {
+            padding-right: 0;
+            position: relative;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+}
+
+.informatinWrap {
+    .input-group {
+        border: 1px solid #69E1B6;
+        border-radius: 4px;
+        margin-bottom: 8px;
+
+        span {
+            background: none;
+            border-radius: 0;
+            border: none;
+            min-width: 120px;
+            border-left: 1px dashed #3cc6a5;
+            font-size: 14px;
+        }
+
+        input {
+            background: none;
+            border-radius: 0;
+            border: none;
+            box-shadow: none !important;
+        }
+    }
+
+    .buttonWrap {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-around;
+
+        .cancel {
+            border-radius: 10px;
+            border: 1px solid #FF6565;
+            color: #FF6565;
+        }
+
+        .submit {
+            border-radius: 10px;
+            border: 1px solid #3CC6A5;
+            background: #3CC6A5;
+            padding: 10px 20px;
+        }
+    }
+}
+
+
+
+@media(min-width:992px) {
+    .panel-style1 .body {
+        &::-webkit-scrollbar {
+            height: 5px !important;
+        }
+    }
+
+    .panel-style2 .body {
+        &::-webkit-scrollbar {
+            height: 5px auto !important;
+        }
+    }
+
+    .panel-style3 .body {
+        &::-webkit-scrollbar {
+            height: 5px !important;
+        }
+    }
+
+    .slider .carousel-indicators {
+        transform: scale(2.5);
+        transform-origin: bottom left;
+    }
+}

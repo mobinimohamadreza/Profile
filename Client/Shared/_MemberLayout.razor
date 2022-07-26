@@ -1,0 +1,13 @@
+﻿@using Profile.Client.Shared.Component
+@inherits LayoutComponentBase
+<MudRTLProvider RightToLeft="true" >
+    <MudThemeProvider />
+    <MudDialogProvider />
+    <MudSnackbarProvider />
+    <MudMainContent  Class="memberWrap">
+    <MemberHeader/>
+        <MudMainContent  >
+            @Body
+        </MudMainContent>
+    </MudMainContent>
+</MudRTLProvider> 

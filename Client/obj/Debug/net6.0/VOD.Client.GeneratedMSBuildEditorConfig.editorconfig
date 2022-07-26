@@ -1,0 +1,107 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = VOD.Client
+build_property.RootNamespace = VOD.Client
+build_property.ProjectDir = D:\project\VOD\Client\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\project\VOD\Client
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/project/VOD/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/VOD/Client/Pages/Details.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWlscy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/VOD/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/VOD/Client/Pages/Member/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYmVyXEVkaXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/VOD/Client/Pages/Member/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYmVyXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/VOD/Client/Pages/Search/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhcmNoXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/VOD/Client/Shared/Component/Category.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudFxDYXRlZ29yeS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/VOD/Client/Shared/Component/DetailsHeader.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudFxEZXRhaWxzSGVhZGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/VOD/Client/Shared/Component/Fillter.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudFxGaWxsdGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/VOD/Client/Shared/Component/Header.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudFxIZWFkZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/VOD/Client/Shared/Component/MemberHeader.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudFxNZW1iZXJIZWFkZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/VOD/Client/Shared/Component/Modal.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudFxNb2RhbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/VOD/Client/Shared/Component/Movie.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudFxNb3ZpZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/VOD/Client/Shared/Component/PopularMovie.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudFxQb3B1bGFyTW92aWUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/VOD/Client/Shared/Component/PopularMovieTwo.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudFxQb3B1bGFyTW92aWVUd28ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/VOD/Client/Shared/Component/SearchHeader.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudFxTZWFyY2hIZWFkZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/VOD/Client/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/VOD/Client/Shared/_DetailsLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXF9EZXRhaWxzTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/VOD/Client/Shared/_MemberLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXF9NZW1iZXJMYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/VOD/Client/Shared/_SearchLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXF9TZWFyY2hMYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/VOD/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/project/VOD/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-xirvtw50pz
